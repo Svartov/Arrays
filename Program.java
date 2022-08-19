@@ -34,16 +34,12 @@ public class Program {
            int MaxNum = number[0];
            int MinNum = number[0];
 
-           // Finding the maximum element of an array
+            // Finding the maximum and minimum element of an array
            for(int j : number){
                if(j > MaxNum)
                    MaxNum = j;
-           }
-
-           // Finding the minimum element of an array
-           for(int j : number){
                if(j < MinNum)
-                    MinNum = j;
+                   MinNum = j;
            }
 
            // Displaying the minimum and maximum values of an array element
